@@ -57,7 +57,7 @@
         	var map = new GMap2(document.getElementById("map"));
         	map.addControl(new GLargeMapControl());
 			map.addControl(new GMapTypeControl ());
-			map.setCenter(new GLatLng(43.648795,-79.403687), 14);
+			map.setCenter(new GLatLng(43.648795,-79.403687), 14); // Defaults to downtown Toronto Ontario.
 			map.setMapType(G_HYBRID_MAP);
 			map.enableRotation();
 			
